@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/ticketing-dev-308116/client
+          # image: us.gcr.io/ticketing-dev-308116/client
+          image: hatekh/client
 ---
 apiVersion: v1
 kind: Service
